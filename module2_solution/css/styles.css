@@ -1,4 +1,4 @@
-/* for mobile screens */
+/* for mobile screen */
 
 @media (max-width: 767px){
 
@@ -60,7 +60,8 @@ div > section {
   background-color: grey;
 }
 
-#chicken_title {
+
+.title {
   width: 100px;
   height: 30px;
   background-color: red;
@@ -72,33 +73,21 @@ div > section {
   border-left: 3px solid black;
 }
 
+#chicken_title {
+  background-color: red;
+}
+
 #beef_title {
-  width: 100px;
-  height: 30px;
   background-color: yellow;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
 }
 
 #sushi_title {
-  width: 100px;
-  height: 30px;
   background-color: green;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
 }
 }
 
 
-/* for desktop screens */
+/* for desktop screen */
 
 @media (min-width: 992px){
 
@@ -163,7 +152,7 @@ div > section {
   background-color: grey;
 }
 
-#chicken_title {
+.title {
   width: 100px;
   height: 30px;
   background-color: red;
@@ -175,32 +164,20 @@ div > section {
   border-left: 3px solid black;
 }
 
+#chicken_title {
+  background-color: red;
+}
+
 #beef_title {
-  width: 100px;
-  height: 30px;
   background-color: yellow;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
 }
 
 #sushi_title {
-  width: 100px;
-  height: 30px;
   background-color: green;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
 }
 }
 
-/* for tablet screens */
+/* for tablet screen*/
 
 @media (min-width: 768px) and (max-width: 991px){
 
@@ -229,7 +206,7 @@ div > section {
 
 .container {
   margin: auto;
-  width: 768px;
+  width: 735px;
   border: 1px solid red;
 }
 
@@ -268,7 +245,8 @@ div > section {
 
 }
 
-#chicken_title {
+
+.title {
   width: 100px;
   height: 30px;
   background-color: red;
@@ -279,28 +257,15 @@ div > section {
   border-bottom: 3px solid black;
   border-left: 3px solid black;
 }
+#chicken_title {
+  background-color: red;
+}
 
 #beef_title {
-  width: 100px;
-  height: 30px;
   background-color: yellow;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
 }
 
 #sushi_title {
-  width: 100px;
-  height: 30px;
   background-color: green;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
 }
 }
