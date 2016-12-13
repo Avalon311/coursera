@@ -1,0 +1,47 @@
+/** div {border: 1px solid red;
+} **/
+
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin:0px;
+  padding: 0px;
+}
+
+h2, h3 {
+  text-align: center;
+
+}
+nav {
+  background-color: #E37B40;
+}
+
+
+.navbar-brand {
+font-size: 24px;
+margin:15px;
+text-shadow: 2px 2px grey;
+}
+
+
+.menu {
+  background-color: #F0CA4D;
+  border: 2px solid #DE5B49;
+  margin: 0px;
+  font-size: 18px;
+  padding: 7px;
+
+
+}
+.nav-btn {
+  margin:18px;
+  font-size: 22px;
+}
+
+.box {
+  background-color: #46B29D;
+  margin-top: 10px;
+margin-bottom: 10px;
+  padding: 10px;
+}
+
